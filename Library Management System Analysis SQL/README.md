@@ -80,7 +80,7 @@ CREATE TABLE Returns (
   FOREIGN KEY (IssueID) REFERENCES Issues(IssueID)
 );
 
-2. 💻 SQL Tasks & Queries
+###2. 💻 SQL Tasks & Queries
 Task 1: Get all members who joined after June 2023
 SELECT * FROM Members 
 WHERE JoinDate > '2023-06-01';
@@ -106,7 +106,7 @@ Task 6: List books by number of total copies (highest first)
 SELECT * FROM Books
 ORDER BY TotalCopies DESC;
 
-3. 📊 Data Analysis & Findings
+###3. 📊 Data Analysis & Findings
 Task 7: Show all books with available copies
 SELECT 
     b.Title,
@@ -155,7 +155,7 @@ FROM Issues
 GROUP BY FORMAT(IssueDate, 'yyyy-MM')
 ORDER BY Month;
 
-4. 📊 Power BI Dashboard
+###4. 📊 Power BI Dashboard
 Report built using Power BI Desktop (July 2025 version)
 
 Key Visuals:
@@ -165,7 +165,9 @@ Available Copies (Conditional Formatting Table)
 Monthly Book Issue Trend (Line Chart)
 Overdue Returns (KPI Card)
 
-5. 📈 Insights & Findings
+---
+
+###5. 📈 Insights & Findings
 📖 Harry Potter was the most borrowed book
 🙋 Anita Sharma borrowed the most books
 ❗ 2 books were returned late or not at all
@@ -173,23 +175,28 @@ Overdue Returns (KPI Card)
 📅 Book issues peaked in late 2024
 <img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/3293e4fc-0f1a-4a88-a5b1-d4c07a7d9609" />
 
-6. 🔍 How to Use
+---
+
+###6. 🔍 How to Use
 Download SQL_Project.sql and execute in SSMS
 Refer to the ER Diagram to understand schema
 Open Library Insights Report.pbix in Power BI Desktop
 Refresh SQL connection if needed
 Use slicers/filters to explore trends
 
+---
 
-7. 📌 Conclusion
+###7. 📌 Conclusion
 This project demonstrates how a simple library dataset can be turned into actionable business intelligence using clean data modeling, SQL querying, and Power BI visualizations.
 
+---
 
-8. ✍️ Author
+###8. ✍️ Author
 Satya Kameswari
 Aspiring Data Analyst | Passionate about SQL & Power BI
 🔗 GitHub: https://github.com/SatyaKameswari-analyst
 
+---
 
 📁 Files in this Project
 📄 SQL_Project.sql
