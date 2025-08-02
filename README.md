@@ -73,5 +73,5 @@ The purpose is to provide an easy-to-use sales monitoring tool for FY 2024–202
 
 > *Created by Satya Kameswari*  
 > Excel Data Analyst | 2025  
-> GitHub: [SatyaKameswari-analyst]
+> GitHub: [https://github.com/SatyaKameswari-analyst]
 
